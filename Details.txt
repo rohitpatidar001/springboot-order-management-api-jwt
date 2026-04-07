@@ -1,0 +1,14 @@
+
+JDK 17
+
+1️ Get Token
+
+POST http://localhost:8080/auth/login?username=rohit
+
+2️ Use Token
+
+Add header:
+Authorization: Bearer YOUR_TOKEN
+
+Call:
+GET http://localhost:8080/orders
